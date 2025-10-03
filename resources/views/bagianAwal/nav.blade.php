@@ -19,9 +19,9 @@
     .btn-nav {
       background-color: #1eaae9;
       color: white !important;
-      border-radius: 20px;
-      padding: 5px 15px;
-      margin-left: 10px;
+      border-radius: 30px;
+      padding: 5px 25px;
+      margin-left: 20px;
     }
     .navbar-custom {
       background-color: #d6d6d6;
