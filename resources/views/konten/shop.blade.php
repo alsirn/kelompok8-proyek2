@@ -14,7 +14,7 @@
                 <img src="https://via.placeholder.com/300" class="card-img-top" alt="Product 1">
                 <div class="card-body">
                     <h5 class="card-title">Product Name</h5>
-                    <p class="card-text text-muted">$99.99</p>
+                    <p class="card-text text-muted">100k</p>
                     <button class="btn btn-add-cart w-100">Add to Cart</button>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                 <img src="https://via.placeholder.com/300" class="card-img-top" alt="Product 2">
                 <div class="card-body">
                     <h5 class="card-title">Product Name</h5>
-                    <p class="card-text text-muted">$149.99</p>
+                    <p class="card-text text-muted">200k</p>
                     <button class="btn btn-add-cart w-100">Add to Cart</button>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                 <img src="https://via.placeholder.com/300" class="card-img-top" alt="Product 3">
                 <div class="card-body">
                     <h5 class="card-title">Product Name</h5>
-                    <p class="card-text text-muted">$199.99</p>
+                    <p class="card-text text-muted">300k</p>
                     <button class="btn btn-add-cart w-100">Add to Cart</button>
                 </div>
             </div>
@@ -50,7 +50,7 @@
                 <img src="https://via.placeholder.com/300" class="card-img-top" alt="Product 4">
                 <div class="card-body">
                     <h5 class="card-title">Product Name</h5>
-                    <p class="card-text text-muted">$79.99</p>
+                    <p class="card-text text-muted">400k</p>
                     <button class="btn btn-add-cart w-100">Add to Cart</button>
                 </div>
             </div>
