@@ -24,7 +24,7 @@
         <!-- Gallery Item 2 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 2">
+                <img src="{{ asset('png/PaketBiasa.jpg') }}" class="img-fluid" alt="Gallery 2">
                 <div class="overlay">
                     <div class="overlay-content">
                         <h5>PaketKeluarga</h5>
@@ -37,7 +37,7 @@
         <!-- Gallery Item 3 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 3">
+                <img src="{{ asset('png/PaketBiasa.jpg') }}" class="img-fluid" alt="Gallery 3">
                 <div class="overlay">
                     <div class="overlay-content">
                         <h5>PaketKeluarga</h5>
@@ -63,7 +63,7 @@
         <!-- Gallery Item 5 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 5">
+                <img src="{{ asset('png/PaketPengantin.jpg') }}" class="img-fluid" alt="Gallery 5">
                 <div class="overlay">
                     <div class="overlay-content">
                         <h5>PaketKeluarga</h5>
