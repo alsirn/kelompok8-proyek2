@@ -5,7 +5,7 @@
 @section('content')
 
 <div class="container my-5">
-    <h2 class="text-center mb-4" style="color: #1eaae9;">Contact Us</h2>
+    <h2 class="text-center mb-4" style="color: #1eaae9;">Contact</h2>
     
     <div class="row justify-content-between">
         <!-- Contact Form -->
@@ -41,17 +41,17 @@
                 
                 <div class="info-item mb-4">
                     <h5><i class="bi bi-geo-alt-fill me-2"></i>Address</h5>
-                    <p>Gatau dimana</p>
+                    <p>Jl.lr. H. juanda, singajaya</p>
                 </div>
                 
                 <div class="info-item mb-4">
                     <h5><i class="bi bi-telephone-fill me-2"></i>Phone</h5>
-                    <p>+62 gatau woi</p>
+                    <p>+6289513513586</p>
                 </div>
                 
                 <div class="info-item mb-4">
                     <h5><i class="bi bi-envelope-fill me-2"></i>Email</h5>
-                    <p>Gataudek@gmail.com</p>
+                    <p>FanesaFoto@gmail.com</p>
                 </div>
                 
                 <div class="info-item">

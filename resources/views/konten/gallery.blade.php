@@ -5,17 +5,17 @@
 @section('content')
 
 <div class="container my-5">
-    <h2 class="text-center mb-4" style="color: #1eaae9;">Our Gallery</h2>
+    <h2 class="text-center mb-4" style="color: #1eaae9;">Gallery Kamu</h2>
     
     <div class="row g-4">
         <!-- Gallery Item 1 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery 1">
+                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 1">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>Image Title</h5>
-                        <p>Brief description</p>
+                        <h5>PaketKeluarga</h5>
+                        <p>PaketKeluarIntinya</p>
                     </div>
                 </div>
             </div>
@@ -24,11 +24,11 @@
         <!-- Gallery Item 2 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery 2">
+                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 2">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>Image Title</h5>
-                        <p>Brief description</p>
+                        <h5>PaketKeluarga</h5>
+                        <p>PaketKeluarIntinya</p>
                     </div>
                 </div>
             </div>
@@ -37,11 +37,11 @@
         <!-- Gallery Item 3 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery 3">
+                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 3">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>Image Title</h5>
-                        <p>Brief description</p>
+                        <h5>PaketKeluarga</h5>
+                        <p>PaketKeluarIntinya</p>
                     </div>
                 </div>
             </div>
@@ -50,11 +50,11 @@
         <!-- Gallery Item 4 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery 4">
+                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 4">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>Image Title</h5>
-                        <p>Brief description</p>
+                        <h5>PaketKeluarga</h5>
+                        <p>PaketKeluarIntinya</p>
                     </div>
                 </div>
             </div>
@@ -63,11 +63,11 @@
         <!-- Gallery Item 5 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery 5">
+                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 5">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>Image Title</h5>
-                        <p>Brief description</p>
+                        <h5>PaketKeluarga</h5>
+                        <p>PaketKeluarIntinya</p>
                     </div>
                 </div>
             </div>
@@ -76,11 +76,11 @@
         <!-- Gallery Item 6 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="https://via.placeholder.com/400x300" class="img-fluid" alt="Gallery 6">
+                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 6">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>Image Title</h5>
-                        <p>Brief description</p>
+                        <h5>PaketKeluarga</h5>
+                        <p>PaketKeluarIntinya</p>
                     </div>
                 </div>
             </div>
