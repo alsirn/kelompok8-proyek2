@@ -9,6 +9,7 @@
     <div class="hero-content">
         <h1 class="animate-fade-in">Welcome to FotoStudio</h1>
         <p class="hero-subtitle animate-fade-in-delayed">Your trusted photography store</p>
+        <a href="#contact" class="btn btn-primary btn-lg mt-4 animate-fade-in-delayed">Contact Us</a>
     </div>
     
     <!-- Scroll Indicator -->
@@ -85,6 +86,52 @@
     </div>
 </div>
 
+<!-- Contact Section -->
+<div id="contact" class="container-fluid contact-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">Contact Us</h2>
+        <div class="row">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <form class="contact-form p-4">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                </form>
+            </div>
+            <div class="col-lg-6">
+                <div class="contact-info p-4">
+                    <h3 class="mb-4">Get in Touch</h3>
+                    <div class="contact-item mb-3">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <p>123 Photo Street, Creative District<br>Photography City, PC 12345</p>
+                    </div>
+                    <div class="contact-item mb-3">
+                        <i class="bi bi-telephone-fill"></i>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="contact-item mb-3">
+                        <i class="bi bi-envelope-fill"></i>
+                        <p>info@fotostudio.com</p>
+                    </div>
+                    <div class="social-links mt-4">
+                        <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <style>
     :root {
         --primary-color: #1eaae9;
@@ -92,9 +139,9 @@
 
     /* Hero Banner */
     .hero-banner {
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(30, 170, 233, 0.8)),
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(30, 170, 233, 0.7)),
                     url('/png/1308724.png') center/cover no-repeat fixed;
-        height: 80vh;
+        height: 100vh;
         width: 100%;
         display: flex;
         align-items: center;
@@ -328,6 +375,63 @@
         background-color: var(--primary-color);
         color: white !important;
         border-color: var(--primary-color);
+    }
+
+    /* Contact Section */
+    .contact-section {
+        background-color: #f8f9fa;
+    }
+
+    .contact-form {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-info {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+        height: 100%;
+    }
+
+    .form-control {
+        border-radius: 8px;
+        border: 1px solid #dee2e6;
+        padding: 0.75rem;
+        transition: all 0.3s ease;
+    }
+
+    .form-control:focus {
+        border-color: var(--primary-color);
+        box-shadow: 0 0 0 0.2rem rgba(30, 170, 233, 0.25);
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: start;
+        gap: 15px;
+    }
+
+    .contact-item i {
+        color: var(--primary-color);
+        font-size: 1.2rem;
+    }
+
+    .contact-item p {
+        margin: 0;
+        color: #666;
+    }
+
+    .social-links a {
+        color: var(--primary-color);
+        font-size: 1.5rem;
+        transition: transform 0.3s ease;
+        display: inline-block;
+    }
+
+    .social-links a:hover {
+        transform: translateY(-3px);
     }
 
     /* Responsive Design */
