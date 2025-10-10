@@ -11,7 +11,7 @@
         <!-- Product Card 1 -->
         <div class="col-md-4 col-lg-3">
             <div class="card product-card h-100">
-                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Product 1">
+                <img src="{{ asset('png/1308724.png') }}" class="card-img-top" alt="Product 1">
                 <div class="card-body">
                     <h5 class="card-title">Product Name</h5>
                     <p class="card-text text-muted">100k</p>
@@ -23,7 +23,7 @@
         <!-- Product Card 2 -->
         <div class="col-md-4 col-lg-3">
             <div class="card product-card h-100">
-                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Product 2">
+                <img src="{{ asset('png/Screenshot 2025-10-09 204518.png') }}" class="card-img-top" alt="Product 2">
                 <div class="card-body">
                     <h5 class="card-title">Product Name</h5>
                     <p class="card-text text-muted">200k</p>
@@ -35,7 +35,7 @@
         <!-- Product Card 3 -->
         <div class="col-md-4 col-lg-3">
             <div class="card product-card h-100">
-                <img src="https://via.placeholder.com/300" class="card-img-top" alt="Product 3">
+                <img src="{{ asset('png/elaina.jpg') }}" class="card-img-top" alt="Product 3">
                 <div class="card-body">
                     <h5 class="card-title">Product Name</h5>
                     <p class="card-text text-muted">300k</p>
