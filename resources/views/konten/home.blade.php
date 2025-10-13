@@ -33,7 +33,7 @@
     <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
             <p class="lead">
-                We provide high-quality photography equipment and excellent customer service to make your creative journey easy and enjoyable. From professional cameras to essential accessories, find everything you need to capture life's precious moments.
+                WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU
             </p>
         </div>
     </div>
