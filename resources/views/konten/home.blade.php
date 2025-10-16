@@ -94,55 +94,41 @@
     </div>
 </div>
 
-<!-- Gallery Section -->
 <div class="container mb-5">
-    <h2 class="text-center mb-4">Gallery</h2>
-    <div class="gallery-grid">
-        <!-- Gallery Item 1 -->
-        <div class="gallery-item">
-            <img src="/png/1308724.png" alt="Wedding Session">
-            <div class="gallery-overlay">
-                <div class="gallery-caption">Wedding Session</div>
+    <h3 mb-4>Produk lainnya</h3>
+    <p> Pilih produk pelengkap untuk membuat momen spesial anda semakin berkesan</p>
+    <div class="product-scroll">
+        <div class="product-row">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="/png/makeup.jpg" alt="Product 2">
+                </div>
+                <div class="product-details">
+                    <h3>Makeup & Styling</h3>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="/png/bajuPrewweding.jpg" alt="Product 2">
+                </div>
+                <div class="product-details">
+                    <h3>Wedding wardrobe</h3>
+                </div>
+            </div>
+
+             <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="/png/baju adat.jpg" alt="Product 3">
+                </div>
+                <div class="product-details">
+                    <h3>Custom wardrobe</h3>
+                </div>
             </div>
         </div>
-        <!-- Gallery Item 2 -->
-        <div class="gallery-item">
-            <img src="/png/1308724.png" alt="Outdoor Portrait">
-            <div class="gallery-overlay">
-                <div class="gallery-caption">Outdoor Portrait</div>
-            </div>
-        </div>
-        <!-- Gallery Item 3 -->
-        <div class="gallery-item">
-            <img src="/png/1308724.png" alt="Family Session">
-            <div class="gallery-overlay">
-                <div class="gallery-caption">Family Session</div>
-            </div>
-        </div>
-        <!-- Gallery Item 4 -->
-        <div class="gallery-item">
-            <img src="/png/1308724.png" alt="Pre-wedding">
-            <div class="gallery-overlay">
-                <div class="gallery-caption">Pre-wedding</div>
-            </div>
-        </div>
-        <!-- Gallery Item 5 -->
-        <div class="gallery-item">
-            <img src="/png/1308724.png" alt="Studio Portrait">
-            <div class="gallery-overlay">
-                <div class="gallery-caption">Studio Portrait</div>
-            </div>
-        </div>
-        <!-- Gallery Item 6 -->
-        <div class="gallery-item">
-            <img src="/png/1308724.png" alt="Children Session">
-            <div class="gallery-overlay">
-                <div class="gallery-caption">Children Session</div>
-            </div>
-        </div>
-    </div>
-    <div class="text-center mt-4">
-        <a href="/gallery" class="btn btn-lg btn-outline-primary">Liat Semua Galerry</a>
     </div>
 </div>
 
