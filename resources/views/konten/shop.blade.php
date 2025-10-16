@@ -5,17 +5,16 @@
 @section('content')
 
 <div class="container my-5">
-    <h2 class="text-center mb-4" style="color: #1eaae9;">Products Kamu</h2>
+    <h2 class="text-center mb-4" style="color: #1eaae9;">Pilih paket untuk menciptakan momen indah anda</h2>
     
     <div class="row g-4">
         <!-- Product Card 1 -->
         <div class="col-md-4 col-lg-3">
             <div class="card product-card h-100">
-                <img src="{{ asset('png/PaketBiasa.jpg') }}" class="card-img-top" alt="Product 1">
+                <img src="{{ asset('/png/fotoSingle FOTU.jpg') }}" class="card-img-top" alt="Product 1">
                 <div class="card-body">
-                    <h5 class="card-title">Paket Biasa</h5>
-                    <p class="card-text text-muted">100k</p>
-                    <button class="btn btn-add-cart w-100">Masukan ke keranjang</button>
+                    <h5 class="card-title">Personal gallery</h5>
+                    <button class="btn btn-add-cart w-100">Book now</button>
                 </div>
             </div>
         </div>
@@ -25,9 +24,8 @@
             <div class="card product-card h-100">
                 <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="card-img-top" alt="Product 2">
                 <div class="card-body">
-                    <h5 class="card-title">Paket Keluarga</h5>
-                    <p class="card-text text-muted">200k</p>
-                    <button class="btn btn-add-cart w-100">Masukan ke keranjang</button>
+                    <h5 class="card-title">Family</h5>
+                    <button class="btn btn-add-cart w-100">Book now</button>
                 </div>
             </div>
         </div>
@@ -37,9 +35,8 @@
             <div class="card product-card h-100">
                 <img src="{{ asset('png/PaketBayi.jpg') }}" class="card-img-top" alt="Product 3">
                 <div class="card-body">
-                    <h5 class="card-title">Paket Bayi :v</h5>
-                    <p class="card-text text-muted">300k</p>
-                    <button class="btn btn-add-cart w-100">Masukan ke keranjang</button>
+                    <h5 class="card-title">Maternity & baby</h5>
+                    <button class="btn btn-add-cart w-100">Book now</button>
                 </div>
             </div>
         </div>
@@ -49,9 +46,8 @@
             <div class="card product-card h-100">
                 <img src="{{ asset('png/PaketPengantin.jpg') }}" class="card-img-top" alt="Product 4">
                 <div class="card-body">
-                    <h5 class="card-title">Paket Pengantin</h5>
-                    <p class="card-text text-muted">400k</p>
-                    <button class="btn btn-add-cart w-100">Masukan ke keranjang</button>
+                    <h5 class="card-title">Prewedding</h5>
+                    <button class="btn btn-add-cart w-100">Book now</button>
                 </div>
             </div>
         </div>

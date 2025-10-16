@@ -8,7 +8,7 @@
 <div class="hero-banner" id="hero">
     <div class="hero-content">
         <h1 class="animate-fade-in">Welcome To FotoStudio</h1>
-        <p class="hero-subtitle animate-fade-in-delayed">FotoStudio Punya Amal</p>
+        <p class="hero-subtitle animate-fade-in-delayed">Fanesya Photo Studio</p>
         <a href="#contact" class="btn btn-primary btn-lg mt-4 animate-fade-in-delayed">Contact Us</a>
     </div>
     
@@ -33,25 +33,24 @@
     <div class="row justify-content-center">
         <div class="col-lg-8 text-center">
             <p class="lead">
-                WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU WIBU
-            </p>
+                "Fanesya Photo menghadirkan studio fotografi profesional yang mengabadikan momen berharga Anda dengan hasil berkualitas tinggi dan sentuhan artistik. setiap sesi dirancang nyaman dan menyenangkan, menjadikan setiap momen tak terlupakan."</p>
         </div>
     </div>
 </div>
 
 <!-- Featured Products -->
 <div class="container mb-5">
-    <h2 class="text-center mb-4">Products</h2>
+    <h3 mb-4>Fotografi Untuk Setiap Prestasi Dalam Hidup Anda</h3>
+    <p> Ambil inspirasi dari galeri kami untuk menciptakan momen indah anda sendiri!</p>
     <div class="product-scroll">
         <div class="product-row">
             <!-- Product 1 -->
             <div class="product-card">
                 <div class="product-image">
-                    <img src="/png/PaketBiasa.jpg" alt="Product 1">
+                    <img src="/png/fotoSingle FOTU.jpg" alt="Product 2">
                 </div>
                 <div class="product-details">
-                    <h3>Paket Biasa</h3>
-                    <p class="price">200.00</p>
+                    <h3>Personal gallery</h3>
                     <a href="/shop" class="btn btn-primary">Menu Detail</a>
                 </div>
             </div>
@@ -62,20 +61,29 @@
                     <img src="/png/PaketKeluarga.jpg" alt="Product 2">
                 </div>
                 <div class="product-details">
-                    <h3>Paket Keluarga</h3>
-                    <p class="price">400.00</p>
+                    <h3>Family</h3>
+                    <a href="/shop" class="btn btn-primary">Menu Detail</a>
+                </div>
+            </div>
+
+             <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="png/PaketBayi.jpg" alt="Product 3">
+                </div>
+                <div class="product-details">
+                    <h3>Maternity & baby</h3>
                     <a href="/shop" class="btn btn-primary">Menu Detail</a>
                 </div>
             </div>
             
-            <!-- Product 3 -->
+            <!-- Product 4 -->
             <div class="product-card">
                 <div class="product-image">
                     <img src="/png/PaketPengantin.jpg" alt="Product 3">
                 </div>
                 <div class="product-details">
-                    <h3>Paket Wedding</h3>
-                    <p class="price">1000.00</p>
+                    <h3>Prewedding</h3>
                     <a href="/shop" class="btn btn-primary">Menu Detail</a>
                 </div>
             </div>
@@ -135,52 +143,6 @@
     </div>
     <div class="text-center mt-4">
         <a href="/gallery" class="btn btn-lg btn-outline-primary">Liat Semua Galerry</a>
-    </div>
-</div>
-
-<!-- Contact Section -->
-<div id="contact" class="container-fluid contact-section py-5">
-    <div class="container">
-        <h2 class="text-center mb-5">Contact Us</h2>
-        <div class="row">
-            <div class="col-lg-6 mb-4 mb-lg-0">
-                <form class="contact-form p-4">
-                    <div class="mb-3">
-                        <input type="text" class="form-control" placeholder="Name" required>
-                    </div>
-                    <div class="mb-3">
-                        <input type="email" class="form-control" placeholder="Email" required>
-                    </div>
-                    <div class="mb-3">
-                        <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-                </form>
-            </div>
-            <div class="col-lg-6">
-                <div class="contact-info p-4">
-                    <h3 class="mb-4">Get in Touch</h3>
-                    <div class="contact-item mb-3">
-                        <i class="bi bi-geo-alt-fill"></i>
-                        <p>Singajaya<br>Gatau</p>
-                    </div>
-                    <div class="contact-item mb-3">
-                        <i class="bi bi-telephone-fill"></i>
-                        <p>Gtaua</p>
-                    </div>
-                    <div class="contact-item mb-3">
-                        <i class="bi bi-envelope-fill"></i>
-                        <p>Gatau@gmail.com</p>
-                    </div>
-                    <div class="social-links mt-4">
-                        <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
-                        <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
-                        <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
-                        <a href="#"><i class="bi bi-linkedin"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 </div>
 

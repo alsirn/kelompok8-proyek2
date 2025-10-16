@@ -5,7 +5,6 @@
 @section('content')
 
 <div class="container my-5">
-    <h2 class="text-center mb-4" style="color: #1eaae9;">Gallery Kamu</h2>
     
     <div class="row g-4">
         <!-- Gallery Item 1 -->

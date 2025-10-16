@@ -24,9 +24,8 @@
     </header>
     @include('bagianAwal.nav')
     @yield('content')
-    <footer class="bg-dark text-white text-center p-3">
+    <footer style="background-color: #1eaae9;" class="text-white text-center p-5">
         @include('bagianAwal.footer')
-        &copy; 2024 WebSaya.Com
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
