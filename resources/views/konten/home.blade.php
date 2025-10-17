@@ -132,6 +132,13 @@
     </div>
 </div>
 
+<div class="container mb-5">
+    <h3 class="mb-4">Jangan pernah kehilangan momen berharga lagi</h3>
+    <p>Abadikan setiap momen berharga bersama kami!</p>
+
+</div>
+
+
 <style>
     :root {
         --primary-color: #1eaae9;
@@ -551,6 +558,7 @@
             font-size: 1.1rem;
         }
     }
+
 </style>
 
 
