@@ -135,7 +135,11 @@
 <div class="container mb-5">
     <h3 class="mb-4">Jangan pernah kehilangan momen berharga lagi</h3>
     <p>Abadikan setiap momen berharga bersama kami!</p>
-
+    <div class="product-baru">
+        <img src="png/Sosmed1.jpg" alt="Instagram" class="product-foto">
+        <img src="png/Sosmed2.jpg" alt="Facebook" class="product-foto">
+        <img src="png/Sosmed3.jpg" alt="Youtube" class="product-foto">
+    </div>
 </div>
 
 
@@ -558,6 +562,20 @@
             font-size: 1.1rem;
         }
     }
+    
+    .product-baru {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    align-items: center;
+}
+
+.product-foto {
+    width: 30%; 
+    height: auto;
+    border-radius: 8px; 
+    object-fit: cover;
+}
 
 </style>
 
