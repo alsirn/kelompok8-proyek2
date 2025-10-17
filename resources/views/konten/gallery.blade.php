@@ -13,8 +13,7 @@
                 <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 1">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>PaketKeluarga</h5>
-                        <p>PaketKeluarIntinya</p>
+                        <h5>Family</h5>
                     </div>
                 </div>
             </div>
@@ -23,11 +22,10 @@
         <!-- Gallery Item 2 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="{{ asset('png/PaketBiasa.jpg') }}" class="img-fluid" alt="Gallery 2">
+                <img src="{{ asset('png/PaketBayi.jpg') }}" class="img-fluid" alt="Gallery 2">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>PaketKeluarga</h5>
-                        <p>PaketKeluarIntinya</p>
+                        <h5>Maternity & baby</h5>
                     </div>
                 </div>
             </div>
@@ -36,11 +34,10 @@
         <!-- Gallery Item 3 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="{{ asset('png/PaketBiasa.jpg') }}" class="img-fluid" alt="Gallery 3">
+                <img src="{{ asset('png/fotoSingle FOTU.jpg') }}" class="img-fluid" alt="Gallery 3">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>PaketKeluarga</h5>
-                        <p>PaketKeluarIntinya</p>
+                        <h5>Personal gallery</h5>
                     </div>
                 </div>
             </div>
@@ -49,11 +46,10 @@
         <!-- Gallery Item 4 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 4">
+                <img src="{{ asset('png/BajuAdat3.jpg') }}" class="img-fluid" alt="Gallery 4">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>PaketKeluarga</h5>
-                        <p>PaketKeluarIntinya</p>
+                        <h5>Bridal image</h5>
                     </div>
                 </div>
             </div>
@@ -65,8 +61,7 @@
                 <img src="{{ asset('png/PaketPengantin.jpg') }}" class="img-fluid" alt="Gallery 5">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>PaketKeluarga</h5>
-                        <p>PaketKeluarIntinya</p>
+                        <h5>Wedding</h5>
                     </div>
                 </div>
             </div>
@@ -75,11 +70,10 @@
         <!-- Gallery Item 6 -->
         <div class="col-md-4">
             <div class="gallery-item">
-                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="img-fluid" alt="Gallery 6">
+                <img src="{{ asset('png/Personal2.jpg') }}" class="img-fluid" alt="Gallery 6">
                 <div class="overlay">
                     <div class="overlay-content">
-                        <h5>PaketKeluarga</h5>
-                        <p>PaketKeluarIntinya</p>
+                        <h5>Personal gallery</h5>
                     </div>
                 </div>
             </div>
