@@ -32,9 +32,24 @@
                 <li class="nav-item ms-3">
                     <a href="{{ url('/cart') }}" style="color:#1eaae9;"><i class="bi bi-cart3 fs-5"></i></a>
                 </li>
+                @if(session('user_id'))
+                <li class="nav-item ms-3">
+                    <span class="nav-link">Hi, {{ session('user_name') }}</span>
+                </li>
+                <li class="nav-item ms-2">
+                    <form method="POST" action="{{ url('/logout') }}">
+                        @csrf
+                        <button class="btn btn-link nav-link" type="submit" style="color:#1eaae9;">Logout</button>
+                    </form>
+                </li>
+                @else
                 <li class="nav-item ms-3">
                     <a href="{{ url('/login') }}" style="color:#1eaae9;"><i class="bi bi-person-circle fs-5"></i></a>
                 </li>
+                <li class="nav-item ms-2">
+                    <a href="{{ url('/register') }}" class="nav-link" style="color:#1eaae9;">Register</a>
+                </li>
+                @endif
             </ul>
         </div>
     </div>

@@ -11,7 +11,16 @@
                 <div class="card-body p-5">
                     <h2 class="text-center mb-4" style="color: #1eaae9;">Sign In</h2>
                     
-                    <form>
+                    @if(session('success'))
+                        <div class="alert alert-success">{{ session('success') }}</div>
+                    @endif
+
+                    @if($errors->has('login'))
+                        <div class="alert alert-danger">{{ $errors->first('login') }}</div>
+                    @endif
+
+                    <form method="POST" action="{{ url('/login') }}">
+                        @csrf
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="email" placeholder="Enter your email">
@@ -22,7 +31,7 @@
                             <input type="password" class="form-control" id="password" placeholder="Enter your password">
                         </div>
                         
-                        <button type="submit" class="btn w-100 mb-3" style="background-color: #1eaae9; color: white; border-radius: 30px; padding: 10px;">
+                        <button type="submit" class="btn w-100 mb-3" style="background-color: #00aaff; color: white; border-radius: 30px; padding: 10px;">
                             Sign In
                         </button>
                         
