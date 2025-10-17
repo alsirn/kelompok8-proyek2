@@ -5,7 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
-use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
+use App\Models\User;
 
 class AuthController extends Controller
 {
@@ -28,15 +29,15 @@ class AuthController extends Controller
             return redirect()->back()->withErrors($validator)->withInput();
         }
 
-        DB::table('buat_akun')->insert([
+        User::create([
             'name' => $request->input('name'),
             'email' => $request->input('email'),
             'password' => Hash::make($request->input('password')),
-            'created_at' => now(),
-            'updated_at' => now(),
         ]);
 
-        // Redirect to login after successful registration
+        // Auto-login after registration (optional) - we'll redirect to login page per spec
+        // Auth::login($user);
+
         return redirect('/login')->with('success', 'Account created. Please login.');
     }
 
@@ -54,13 +55,12 @@ class AuthController extends Controller
             'password' => 'required|string',
         ]);
 
-        $user = DB::table('buat_akun')->where('email', $credentials['email'])->first();
+        // Attempt to authenticate using the User model
+        $user = User::where('email', $credentials['email'])->first();
 
         if ($user && Hash::check($credentials['password'], $user->password)) {
-            // Save user id in session
-            $request->session()->put('user_id', $user->id);
-            $request->session()->put('user_name', $user->name);
-            return redirect('/')->with('success', 'Logged in successfully.');
+            Auth::login($user);
+            return redirect('/home');
         }
 
         return redirect('/login')->withErrors(['login' => 'Invalid email or password.'])->withInput();
@@ -69,7 +69,9 @@ class AuthController extends Controller
     // Handle logout
     public function logout(Request $request)
     {
-        $request->session()->forget(['user_id', 'user_name']);
+        Auth::logout();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
         return redirect('/');
     }
 }

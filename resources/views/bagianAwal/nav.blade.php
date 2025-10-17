@@ -32,9 +32,9 @@
                 <li class="nav-item ms-3">
                     <a href="{{ url('/cart') }}" style="color:#1eaae9;"><i class="bi bi-cart3 fs-5"></i></a>
                 </li>
-                @if(session('user_id'))
+                @auth
                 <li class="nav-item ms-3">
-                    <span class="nav-link">Hi, {{ session('user_name') }}</span>
+                    <span class="nav-link">Welcome, {{ auth()->user()->name }}</span>
                 </li>
                 <li class="nav-item ms-2">
                     <form method="POST" action="{{ url('/logout') }}">
@@ -49,7 +49,7 @@
                 <li class="nav-item ms-2">
                     <a href="{{ url('/register') }}" class="nav-link" style="color:#1eaae9;">Register</a>
                 </li>
-                @endif
+                @endauth
             </ul>
         </div>
     </div>
