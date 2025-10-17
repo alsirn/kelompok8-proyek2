@@ -133,7 +133,7 @@
 </div>
 
 <div class="container mb-5">
-    <h3 class="mb-4">Jangan pernah kehilangan momen berharga lagi</h3>
+    <h3 mb-4>Jangan pernah kehilangan momen berharga lagi</h3>
     <p>Abadikan setiap momen berharga bersama kami!</p>
     <div class="product-baru">
         <img src="png/Sosmed1.jpg" alt="Instagram" class="product-foto">
