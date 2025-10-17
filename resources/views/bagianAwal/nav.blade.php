@@ -33,7 +33,7 @@
                     <a href="{{ url('/cart') }}" style="color:#1eaae9;"><i class="bi bi-cart3 fs-5"></i></a>
                 </li>
                 <li class="nav-item ms-3">
-                    <a href="{{ url('/profile') }}" style="color:#1eaae9;"><i class="bi bi-person-circle fs-5"></i></a>
+                    <a href="{{ url('/login') }}" style="color:#1eaae9;"><i class="bi bi-person-circle fs-5"></i></a>
                 </li>
             </ul>
         </div>

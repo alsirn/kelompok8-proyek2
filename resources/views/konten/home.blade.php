@@ -140,8 +140,8 @@
     /* Hero Banner */
     .hero-banner {
         background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(30, 170, 233, 0.7)),
-                    url('/png/1308724.png') center/cover no-repeat fixed;
-        height: 100vh;
+                    url('/png/fotoSingle FOTU.jpg') center/cover no-repeat fixed;
+        height: 89vh;
         width: 100%;
         display: flex;
         align-items: center;
