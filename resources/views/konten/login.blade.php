@@ -9,7 +9,7 @@
         <div class="col-md-6">
             <div class="card shadow-sm">
                 <div class="card-body p-5">
-                    <h2 class="text-center mb-4" style="color: #1eaae9;">Sign In</h2>
+                    <h2 class="text-center mb-4" style="color: #1eaae9;">Login</h2>
                     
                     @if(session('success'))
                         <div class="alert alert-success">{{ session('success') }}</div>
@@ -34,9 +34,16 @@
                         </div>
                         
                         <button type="submit" class="btn w-100 mb-3" style="background-color: #00aaff; color: white; border-radius: 30px; padding: 10px;">
-                            Sign In
+                            Login
                         </button>
-                        
+
+                        <!-- Register Link -->
+                        <div class="text-center mt-3">
+                        <span>Don't have an account?</span>
+                        <a href="{{ url('/register') }}" class="text-decoration-none" style="color: #1eaae9;">Register</a>
+                        </div>
+
+                         <!-- Forgot Password -->
                         <div class="text-center">
                             <a href="#" class="text-decoration-none" style="color: #1eaae9;">Forgot password?</a>
                         </div>

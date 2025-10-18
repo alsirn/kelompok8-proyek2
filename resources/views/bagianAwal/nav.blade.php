@@ -14,8 +14,9 @@
         <!-- Isi Navbar -->
         <div class="collapse navbar-collapse" id="navbarNav">
             <!-- Search Bar -->
-            <form class="d-flex mx-auto" style="width: 300px;">
-                <input class="form-control me-2" type="search" placeholder="Cari Produk untukmu" aria-label="Search">
+            <form action="{{ url('/search') }}" method="GET" class="d-flex ms-auto" style="width: 300px;">
+                <input class="form-control me-2" type="search"  type="text" id="search-input" class="form-control" placeholder="Cari sesuatu...">
+                <div id="search-results" class="mt-2"></div>
                 <button class="btn btn-outline-primary" type="submit">
                     <i class="bi bi-search"></i>
                 </button>
@@ -29,9 +30,6 @@
                 <li class="nav-item"><a class="nav-link" href="{{ url('/contact') }}" style="color:#1eaae9;">Contact</a></li>
                 
                 <!-- Ikon -->
-                <li class="nav-item ms-3">
-                    <a href="{{ url('/cart') }}" style="color:#1eaae9;"><i class="bi bi-cart3 fs-5"></i></a>
-                </li>
                 @auth
                 <li class="nav-item ms-3">
                     <span class="nav-link">Welcome, {{ auth()->user()->name }}</span>
@@ -39,7 +37,7 @@
                 <li class="nav-item ms-2">
                     <form method="POST" action="{{ url('/logout') }}">
                         @csrf
-                        <button class="btn btn-link nav-link" type="submit" style="color:#1eaae9;">Logout</button>
+                        <button class="btn btn-link nav-link" type="submit" style="color:#1eaae9;"></button>
                     </form>
                 </li>
                 @else
@@ -47,10 +45,9 @@
                     <a href="{{ url('/login') }}" style="color:#1eaae9;"><i class="bi bi-person-circle fs-5"></i></a>
                 </li>
                 <li class="nav-item ms-2">
-                    <a href="{{ url('/register') }}" class="nav-link" style="color:#1eaae9;">Register</a>
+                    <a href="{{ url('/register') }}" class="nav-link" style="color:#1eaae9;"></a>
                 </li>
-                @endauth
-            </ul>
+                @endauth
         </div>
     </div>
 </nav>

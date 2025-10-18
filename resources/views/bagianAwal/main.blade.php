@@ -24,7 +24,7 @@
     </header>
     @include('bagianAwal.nav')
     @yield('content')
-    <footer style="background-color: #1eaae9;" class="text-white text-center p-5">
+    <footer >
         @include('bagianAwal.footer')
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
