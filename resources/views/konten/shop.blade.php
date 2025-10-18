@@ -3,51 +3,60 @@
 @section('title', 'Shop - WebSaya.Com')
 
 @section('content')
-
 <div class="container my-5">
-    <h2 class="text-center mb-4" style="color: #1eaae9;">Pilih paket untuk menciptakan momen indah anda</h2>
-    
+    <h2 class="text-center mb-5" style="color: #1eaae9; font-weight: 600;">
+        Pilih paket untuk menciptakan momen indah Anda
+    </h2>
+
     <div class="row g-4">
-        <!-- Product Card 1 -->
-        <div class="col-md-4 col-lg-3">
-            <div class="card product-card h-100">
-                <img src="{{ asset('/png/fotoSingle FOTU.jpg') }}" class="card-img-top" alt="Product 1">
-                <div class="card-body">
-                    <h5 class="card-title">Personal gallery</h5>
-                    <button class="btn btn-add-cart w-100">Book now</button>
+        <!-- Personal -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm h-100 border-0 rounded-4">
+                <img src="{{ asset('png/fotoSingle FOTU.jpg') }}" class="card-img-top rounded-top-4" alt="Personal">
+                <div class="card-body text-center">
+                    <h5 class="card-title mb-3">Personal Gallery</h5>
+                    <a href="{{ route('booking.show', 'personal') }}" class="btn btn-primary w-100 fw-semibold">
+                        Booking now
+                    </a>
                 </div>
             </div>
         </div>
 
-        <!-- Product Card 2 -->
-        <div class="col-md-4 col-lg-3">
-            <div class="card product-card h-100">
-                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="card-img-top" alt="Product 2">
-                <div class="card-body">
-                    <h5 class="card-title">Family</h5>
-                    <button class="btn btn-add-cart w-100">Book now</button>
+        <!-- Family -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm h-100 border-0 rounded-4">
+                <img src="{{ asset('png/PaketKeluarga.jpg') }}" class="card-img-top rounded-top-4" alt="Family">
+                <div class="card-body text-center">
+                    <h5 class="card-title mb-3">Family</h5>
+                    <a href="{{ route('booking.show', 'family') }}" class="btn btn-primary w-100 fw-semibold">
+                        Booking now
+                    </a>
                 </div>
             </div>
         </div>
 
-        <!-- Product Card 3 -->
-        <div class="col-md-4 col-lg-3">
-            <div class="card product-card h-100">
-                <img src="{{ asset('png/PaketBayi.jpg') }}" class="card-img-top" alt="Product 3">
-                <div class="card-body">
-                    <h5 class="card-title">Maternity & baby</h5>
-                    <button class="btn btn-add-cart w-100">Book now</button>
+        <!-- Maternity -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm h-100 border-0 rounded-4">
+                <img src="{{ asset('png/PaketBayi.jpg') }}" class="card-img-top rounded-top-4" alt="Maternity">
+                <div class="card-body text-center">
+                    <h5 class="card-title mb-3">Maternity & Baby</h5>
+                    <a href="{{ route('booking.show', 'maternity') }}" class="btn btn-primary w-100 fw-semibold">
+                        Booking now
+                    </a>
                 </div>
             </div>
         </div>
 
-        <!-- Product Card 4 -->
-        <div class="col-md-4 col-lg-3">
-            <div class="card product-card h-100">
-                <img src="{{ asset('png/PaketPengantin.jpg') }}" class="card-img-top" alt="Product 4">
-                <div class="card-body">
-                    <h5 class="card-title">Prewedding</h5>
-                    <button class="btn btn-add-cart w-100">Book now</button>
+        <!-- Prewedding -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card shadow-sm h-100 border-0 rounded-4">
+                <img src="{{ asset('png/PaketPengantin.jpg') }}" class="card-img-top rounded-top-4" alt="Prewedding">
+                <div class="card-body text-center">
+                    <h5 class="card-title mb-3">Prewedding</h5>
+                    <a href="{{ route('booking.show', 'prewedding') }}" class="btn btn-primary w-100 fw-semibold">
+                        Booking now
+                    </a>
                 </div>
             </div>
         </div>
@@ -55,36 +64,16 @@
 </div>
 
 <style>
-    .product-card {
-        border: none;
-        border-radius: 15px;
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-
-    .product-card:hover {
+    .card:hover {
         transform: translateY(-5px);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    }
-
-    .card-img-top {
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        object-fit: cover;
-    }
-
-    .btn-add-cart {
-        background-color: #1eaae9;
-        color: white;
-        border-radius: 30px;
-        padding: 8px 20px;
         transition: all 0.3s ease;
     }
-
-    .btn-add-cart:hover {
-        background-color: white;
-        color: #1eaae9;
-        border: 2px solid #1eaae9;
+    .btn-primary {
+        background-color: #1eaae9;
+        border: none;
+    }
+    .btn-primary:hover {
+        background-color: #1582c7;
     }
 </style>
-
 @endsection
