@@ -5,6 +5,7 @@
 
 @section('content')
 <!-- Hero Banner -->
+<link rel="stylesheet" href="{{ asset('css/home.css') }}">
 <div class="hero-banner" id="hero">
     <div class="hero-content">
         <h1 class="animate-fade-in">Welcome To FotoStudio</h1>
@@ -51,7 +52,7 @@
                 </div>
                 <div class="product-details">
                     <h3>Personal gallery</h3>
-                    <a href="/shop" class="btn btn-primary">Menu Detail</a>
+                    <a href="{{ route('booking.show', 'personal') }}" class="btn btn-primary">Menu Detail</a>
                 </div>
             </div>
             
@@ -62,7 +63,7 @@
                 </div>
                 <div class="product-details">
                     <h3>Family</h3>
-                    <a href="/shop" class="btn btn-primary">Menu Detail</a>
+                    <a href="{{ route('booking.show', 'family') }}" class="btn btn-primary">Menu Detail</a>
                 </div>
             </div>
 
@@ -73,7 +74,7 @@
                 </div>
                 <div class="product-details">
                     <h3>Maternity & baby</h3>
-                    <a href="/shop" class="btn btn-primary">Menu Detail</a>
+                    <a href="{{ route('booking.show', 'maternity') }}" class="btn btn-primary">Menu Detail</a>
                 </div>
             </div>
             
@@ -84,7 +85,7 @@
                 </div>
                 <div class="product-details">
                     <h3>Prewedding</h3>
-                    <a href="/shop" class="btn btn-primary">Menu Detail</a>
+                    <a href="{{ route('booking.show', 'prewedding') }}" class="btn btn-primary">Menu Detail</a>
                 </div>
             </div>
         </div>
