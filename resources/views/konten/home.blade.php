@@ -52,7 +52,11 @@
                 </div>
                 <div class="product-details">
                     <h3>Personal gallery</h3>
-                    <a href="{{ route('booking.show', 'personal') }}" class="btn btn-primary">Menu Detail</a>
+                    @if(auth()->check() && auth()->user()->hasBooked('Personal Gallery'))
+                        <button class="btn btn-secondary" disabled>Booked</button>
+                    @else
+                        <a href="{{ route('booking.show', 'personal') }}" class="btn btn-primary">Menu Detail</a>
+                    @endif
                 </div>
             </div>
             
@@ -63,7 +67,11 @@
                 </div>
                 <div class="product-details">
                     <h3>Family</h3>
-                    <a href="{{ route('booking.show', 'family') }}" class="btn btn-primary">Menu Detail</a>
+                    @if(auth()->check() && auth()->user()->hasBooked('Family'))
+                        <button class="btn btn-secondary" disabled>Booked</button>
+                    @else
+                        <a href="{{ route('booking.show', 'family') }}" class="btn btn-primary">Menu Detail</a>
+                    @endif
                 </div>
             </div>
 
@@ -74,7 +82,11 @@
                 </div>
                 <div class="product-details">
                     <h3>Maternity & baby</h3>
-                    <a href="{{ route('booking.show', 'maternity') }}" class="btn btn-primary">Menu Detail</a>
+                    @if(auth()->check() && auth()->user()->hasBooked('Maternity & Baby'))
+                        <button class="btn btn-secondary" disabled>Booked</button>
+                    @else
+                        <a href="{{ route('booking.show', 'maternity') }}" class="btn btn-primary">Menu Detail</a>
+                    @endif
                 </div>
             </div>
             
@@ -85,7 +97,11 @@
                 </div>
                 <div class="product-details">
                     <h3>Prewedding</h3>
-                    <a href="{{ route('booking.show', 'prewedding') }}" class="btn btn-primary">Menu Detail</a>
+                    @if(auth()->check() && auth()->user()->hasBooked('Prewedding'))
+                        <button class="btn btn-secondary" disabled>Booked</button>
+                    @else
+                        <a href="{{ route('booking.show', 'prewedding') }}" class="btn btn-primary">Menu Detail</a>
+                    @endif
                 </div>
             </div>
         </div>

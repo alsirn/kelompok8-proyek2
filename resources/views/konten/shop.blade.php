@@ -17,9 +17,11 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title mb-3">Personal Gallery</h5>
-                    <a href="{{ route('booking.show', 'personal') }}" class="btn btn-menu-detail">
-                        BookNow
-                    </a>
+                        @if(auth()->check() && auth()->user()->hasBooked('Personal Gallery'))
+                            <button class="btn btn-secondary" disabled>Booked</button>
+                        @else
+                            <a href="{{ route('booking.show', 'personal') }}" class="btn btn-menu-detail">BookNow</a>
+                        @endif
                 </div>
             </div>
         </div>
@@ -32,9 +34,11 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title mb-3">Family</h5>
-                    <a href="{{ route('booking.show', 'family') }}" class="btn btn-menu-detail">
-                        BookNow
-                    </a>
+                        @if(auth()->check() && auth()->user()->hasBooked('Family'))
+                            <button class="btn btn-secondary" disabled>Booked</button>
+                        @else
+                            <a href="{{ route('booking.show', 'family') }}" class="btn btn-menu-detail">BookNow</a>
+                        @endif
                 </div>
             </div>
         </div>
@@ -47,9 +51,11 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title mb-3">Maternity & Baby</h5>
-                    <a href="{{ route('booking.show', 'maternity') }}" class="btn btn-menu-detail">
-                        BookNow
-                    </a>
+                        @if(auth()->check() && auth()->user()->hasBooked('Maternity & Baby'))
+                            <button class="btn btn-secondary" disabled>Booked</button>
+                        @else
+                            <a href="{{ route('booking.show', 'maternity') }}" class="btn btn-menu-detail">BookNow</a>
+                        @endif
                 </div>
             </div>
         </div>
@@ -62,9 +68,11 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title mb-3">Prewedding</h5>
-                    <a href="{{ route('booking.show', 'prewedding') }}" class="btn btn-menu-detail">
-                        BookNow
-                    </a>
+                        @if(auth()->check() && auth()->user()->hasBooked('Prewedding'))
+                            <button class="btn btn-secondary" disabled>Booked</button>
+                        @else
+                            <a href="{{ route('booking.show', 'prewedding') }}" class="btn btn-menu-detail">BookNow</a>
+                        @endif
                 </div>
             </div>
         </div>

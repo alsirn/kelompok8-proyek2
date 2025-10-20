@@ -10,6 +10,7 @@ Route::get('/search', [SearchController::class, 'search'])->name('search');
 use App\Http\Controllers\BookingController;
 
 Route::get('/booking/{type}', [BookingController::class, 'show'])->name('booking.show');
+Route::post('/booking', [BookingController::class, 'store'])->name('booking.store');
 
 // Home
 Route::get('/', function () {

@@ -48,4 +48,16 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    // Relationship to bookings
+    public function bookings()
+    {
+        return $this->hasMany(\App\Models\Booking::class, 'user_id');
+    }
+
+    // Check if user has booked a package (pending or booked)
+    public function hasBooked($packageName)
+    {
+        return \App\Models\Booking::userHasBooked($this->id, $packageName);
+    }
 }
