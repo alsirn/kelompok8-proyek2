@@ -5,7 +5,7 @@
             <div class="col-md-4 mb-3">
                 <h5><strong>FANESYA PHOTO STUDIO</strong></h5>
                 <p>FANESYA PHOTO STUDIO merupakan studio fotografi terkemuka di Indramayu, yang berpengalaman dalam mengabadikan momen-momen penting baik untuk kebutuhan pribadi maupun event.</p>
-                <a href="#" style="color:#1eaae9;">Baca Selengkapnya</a>
+                <a href="{{ url('/home') }}" style="color:#1eaae9;">Baca Selengkapnya</a>
             </div>
 
             <!-- Kontak Kami -->
