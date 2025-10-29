@@ -36,3 +36,12 @@ Route::view('/shop', 'konten.shop');
 Route::view('/gallery', 'konten.gallery');
 Route::view('/contact', 'konten.contact');
 
+use App\Http\Controllers\ContactController;
+
+// Tampilkan form (GET)
+Route::get('/contact/create', [ContactController::class, 'create'])->name('contact.create');
+// Terima form (POST)
+Route::post('/contact/store', [ContactController::class, 'store'])->name('contact.store');
+
+
+

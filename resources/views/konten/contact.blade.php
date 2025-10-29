@@ -12,20 +12,21 @@
         <div class="col-md-6">
             <div class="card shadow-sm">
                 <div class="card-body p-4">
-                    <form>
+                    <form action="{{ route('contact.store') }}" method="POST">
+                        @csrf
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
                         </div>
                         
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
                         </div>
                         
                         <div class="mb-4">
                             <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message"></textarea>
                         </div>
                         
                         <button type="submit" class="btn btn-send w-100">Send Message</button>
@@ -41,7 +42,7 @@
                 
                 <div class="info-item mb-4">
                     <h5><i class="bi bi-geo-alt-fill me-2"></i>Address</h5>
-                    <p>Jl.lr. H. juanda, singajaya</p>
+                    <p>Jl. Ir. H. Juanda, Singajaya, Kec. Indramayu, Kabupaten Indramayu, Jawa Barat 45218</p>
                 </div>
                 
                 <div class="info-item mb-4">
@@ -51,13 +52,13 @@
                 
                 <div class="info-item mb-4">
                     <h5><i class="bi bi-envelope-fill me-2"></i>Email</h5>
-                    <p>FanesaFoto@gmail.com</p>
+                    <p>FanesyaFoto@gmail.com</p>
                 </div>
                 
                 <div class="info-item">
                     <h5><i class="bi bi-clock-fill me-2"></i>Working Hours</h5>
-                    <p>Monday - Friday: 9:00 AM - 6:00 PM<br>
-                    Saturday: 10:00 AM - 4:00 PM</p>
+                    <p>Monday - Friday: 8:00 AM - 9:00 PM<br>
+                    Saturday - Sunday : 10:00 AM - 9:00 PM</p>
                 </div>
             </div>
         </div>
