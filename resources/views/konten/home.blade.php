@@ -10,7 +10,7 @@
     <div class="hero-content">
         <h1 class="animate-fade-in">Welcome To FotoStudio</h1>
         <p class="hero-subtitle animate-fade-in-delayed">Fanesya Photo Studio</p>
-        <a href="#contact" class="btn btn-primary btn-lg mt-4 animate-fade-in-delayed">Contact Us</a>
+        <a href="{{ url('/contact') }}"  class="btn btn-primary btn-lg mt-4 animate-fade-in-delayed">Contact Us</a>
     </div>
     
     <!-- Scroll Indicator -->
