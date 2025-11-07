@@ -20,7 +20,7 @@
                         @if(auth()->check() && auth()->user()->hasBooked('Personal Gallery'))
                             <button class="btn btn-secondary" disabled>Booked</button>
                         @else
-                            <a href="{{ route('booking.show', 'personal') }}" class="btn btn-menu-detail">BookNow</a>
+                            <a href="{{ route('booking.show', 'personal') }}" class="btn btn-menu-detail">Book Sekarang</a>
                         @endif
                 </div>
             </div>
@@ -37,7 +37,7 @@
                         @if(auth()->check() && auth()->user()->hasBooked('Family'))
                             <button class="btn btn-secondary" disabled>Booked</button>
                         @else
-                            <a href="{{ route('booking.show', 'family') }}" class="btn btn-menu-detail">BookNow</a>
+                            <a href="{{ route('booking.show', 'family') }}" class="btn btn-menu-detail">Book Sekarang</a>
                         @endif
                 </div>
             </div>
@@ -54,7 +54,7 @@
                         @if(auth()->check() && auth()->user()->hasBooked('Maternity & Baby'))
                             <button class="btn btn-secondary" disabled>Booked</button>
                         @else
-                            <a href="{{ route('booking.show', 'maternity') }}" class="btn btn-menu-detail">BookNow</a>
+                            <a href="{{ route('booking.show', 'maternity') }}" class="btn btn-menu-detail">Book Sekarang</a>
                         @endif
                 </div>
             </div>
@@ -71,7 +71,7 @@
                         @if(auth()->check() && auth()->user()->hasBooked('Prewedding'))
                             <button class="btn btn-secondary" disabled>Booked</button>
                         @else
-                            <a href="{{ route('booking.show', 'prewedding') }}" class="btn btn-menu-detail">BookNow</a>
+                            <a href="{{ route('booking.show', 'prewedding') }}" class="btn btn-menu-detail">Book Sekarang</a>
                         @endif
                 </div>
             </div>
